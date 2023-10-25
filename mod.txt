@@ -8,7 +8,7 @@
 		{
 			"identifier": "finished_time",
 			"host": {
-					"meta": https://raw.githubusercontent.com/vojin154/pd2_finished_time/main/meta.json"
+					"meta": "https://raw.githubusercontent.com/vojin154/pd2_finished_time/main/meta.json"
 				}
         	}
 	],
