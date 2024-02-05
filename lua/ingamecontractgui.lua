@@ -1,7 +1,10 @@
-
 Hooks:PostHook(IngameContractGui, "init", "FinishedTime", function(self, ws, node)
     local panel = self._panel
     local experience = self._experience_title
+
+	if (panel and experience) == nil then --checking if exists incase, for example when host leaves all the info is erased thus crash
+		return
+	end
 
     local finished_time_panel = panel:text({
 		vertical = "top",
