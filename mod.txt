@@ -3,7 +3,7 @@
 	"description" : "Shows the best time the selected heist was finished in",
 	"author" : "vojin154",
 	"contact" : "vojin154@gmail.com",
-	"version" : "9.0",
+	"version" : "9.1",
 	"updates": [
 		{
 			"identifier": "finished_time",
