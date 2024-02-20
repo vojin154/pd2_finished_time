@@ -10,7 +10,7 @@ Hooks:Add("MenuManagerBuildCustomMenus", "FinishedTime", function(menu_manager, 
 
     local priority = (#FinishedTime:GetExisting() * 2) + 1 -- + 1 bcs of reset all, times 2 to account for dividers
 
-    for i,_ in pairs(FinishedTime:GetExisting()) do
+    for i, _ in pairs(FinishedTime:GetExisting()) do
         MenuCallbackHandler["ft_" .. i .. "_reset"] = function(self, item)
             nodes[main_menu_id]._items[1] = nil
             Utils.PrintTable(item._parameters)
