@@ -1,0 +1,5 @@
+{
+    "files.associations": {
+        "mod.txt": "jsonc" // JSON with Comments
+    }
+}
